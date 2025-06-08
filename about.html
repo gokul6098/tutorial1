@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - Furniture 🪑</title>
+  <!-- css -->
+  <link rel="stylesheet" href="./assets/style/stylee.css" />
+  <!-- font awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <!-- font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Eudoxus+Sans&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <!-- navigation bar -->
+    <nav>
+      <div class="logo">
+        <img src="./assets/image/logo.png" alt="nav-logo" />
+      </div>
+      <ul class="navbar_items">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="javascript:;">Product</a></li>
+        <li><a href="javascript:;">Service</a></li>
+        <li><a href="about.html">About us</a></li>
+      </ul>
+      <div class="navbar_icons">
+        <div class="icon_img">
+          <img src="./assets/image/user.png" alt="login_icon" />
+          <img src="./assets/image/bag-2.png" alt="cart icon" />
+        </div>
+        <i class="fa-solid fa-bars" onclick="openNav()"></i>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html">Home</a>
+          <a href="#">Product</a>
+          <a href="#">Services</a>
+          <a href="about.html">About us</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="landing_page">
+      <div class="landing_page_header">
+        <h1>About Furnicom</h1>
+        <p>
+          We are more than just a furniture brand. Furnicom is a story of creativity, craftsmanship, and comfort. From humble beginnings to becoming a trusted name in home design, our mission is to craft beautiful spaces with sustainably sourced, high-quality furniture.
+        </p>
+      </div>
+
+      <div class="landing_page_contents">
+        <div class="landing_page_contents_header">
+          <h5>Why Choose Us?</h5>
+          <p>
+            With over 20 years of experience, we’ve helped over 400+ clients find the perfect setup for their homes and offices. Our furniture is not only elegant and modern but also made to last.
+          </p>
+        </div>
+
+        <div class="landing_page_contents_choices">
+          <div class="left_choice">
+            <h4>Premium Materials</h4>
+            <p>
+              All of our products are made from responsibly sourced wood, premium fabrics, and durable metals.
+            </p>
+          </div>
+          <div class="middle_choice">
+            <h4>Design Meets Function</h4>
+            <p>
+              Each piece is crafted with both aesthetics and practicality in mind to suit your space perfectly.
+            </p>
+          </div>
+          <div class="right_choice">
+            <h4>Customer-Centric Service</h4>
+            <p>
+              Our team is dedicated to ensuring satisfaction from order to delivery and beyond.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer_holder">
+      <div class="footer_header">
+        <h5>Join with me to get special discount</h5>
+        <button class="footer_button">Learn More</button>
+      </div>
+      <hr class="footer_line" />
+      <div class="footer_contents">
+        <div class="footer_logo">
+          <img src="./assets/image/logo.png" />
+          <p>
+            Furnicom is a digital agency that helps you create better living spaces with thoughtful furniture design.
+          </p>
+        </div>
+        <div class="footer_items">
+          <ul class="product">
+            <li class="footer-links-head">Product</li>
+            <li><a href="javascript:;">New Arrivals</a></li>
+            <li><a href="javascript:;">Best Selling</a></li>
+            <li><a href="javascript:;">Home Decor</a></li>
+            <li><a href="javascript:;">Kitchen Set</a></li>
+          </ul>
+          <ul class="service">
+            <li class="footer-links-head">Services</li>
+            <li><a href="javascript:;">Catalog</a></li>
+            <li><a href="javascript:;">Blog</a></li>
+            <li><a href="javascript:;">FaQ</a></li>
+            <li><a href="javascript:;">Pricing</a></li>
+          </ul>
+          <ul class="follow_us">
+            <li class="footer-links-head">Follow Us</li>
+            <li><a href="javascript:;">Facebook</a></li>
+            <li><a href="javascript:;">Instagram</a></li>
+            <li><a href="javascript:;">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+</body>
+</html>
