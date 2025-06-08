@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture 🪑</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/style/stylee.css">
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Eudoxus+Sans&display=swap" rel="stylesheet">
+    <!-- script -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
+    <!-- slick_slidder -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <!-- navigation bar -->
+        <nav>
+            <div class="logo">
+                <img src="d:\gokul\PLACEMENT\furniture.jpg" alt="nav-logo">
+            </div>
+            <ul class="navbar_items">
+                <li><a href="javascript:;">Product</a></li>
+                <li><a href="javascript:;">Service</a></li>
+                <li><a href="javascript:;">Article</a></li>
+                <li><a href="javascript:;">About us</a></li>
+
+            </ul>
+            <div class="navbar_icons">
+                <div class="icon_img">
+                    <img src="./assets/image/user.png" alt="login_icon">
+                    <img src="./assets/image/bag-2.png" alt="cart icon">
+                </div>
+                <i class="fa-solid fa-bars" onclick="openNav()"></i>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Product</a>
+                    <a href="#">Services</a>
+                    <a href="#">Article</a>
+                    <a href="#">About us</a>
+                  </div>    
+                  
+            </div>
+        </nav>
+    </header>
+    <!-- sectiion 1 -->
+    <section class="landing_page">
+        <div class="landing_page_header">
+            <h6>Discover Furniture With High Quality Wood</h6>
+            <p>Pellentesque etiam blandit in tincidunt at donec.
+                Eget ipsum dignissim placerat nisi, adipiscing mauris non.
+                Purus parturient viverra nunc, tortor sit laoreet.
+                Quam tincidunt aliquam adipiscing tempor.</p>
+        </div>
+        <div class="landing_page_body">
+            <div class="search_bar">
+                <div class="search_bar_elements">
+                    <p>
+                        Search property
+                    </p>
+                    <button class="search_button">Search</button>
+                </div>
+            </div>
+            <div class="landing_page_image">
+                <img src="./assets/image/search image.png" alt="furniture_image">
+            </div>
+        </div>
+        <div class="landing_page_contents">
+            <div class="landing_page_contents_header">
+                <h5>Benefits when using our services</h5>
+                <p>Pellentesque etiam blandit in tincidunt at donec.
+                    Eget ipsum dignissim placerat nisi,
+                    adipiscing mauris non purus parturient.</p>
+
+            </div>
+            <div class="landing_page_contents_choices">
+                <div class="left_choice">
+                    <h4>Many Choices</h4>
+                    <p>Pellentesque etiam blandit in tincidunt at donec.
+                        Eget ipsum dignissim placerat nisi,
+                        adipiscing mauris non.</p>
+                </div>
+                <div class="middle_choice">
+                    <h4>Fast and On Time</h4>
+                    <p>Pellentesque etiam blandit in tincidunt at donec.
+                        Eget ipsum dignissim placerat nisi,
+                        adipiscing mauris non.</p>
+                </div>
+                <div class="right_choice">
+                    <h4>Affordable Price</h4>
+                    <p> Pellentesque etiam blandit in tincidunt at donec.
+                        Eget ipsum dignissim placerat nisi,
+                        adipiscing mauris non.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- section 2 -->
+    <section>
+       
+            <div class="product_header">
+                <h5>Our popular product</h5>
+                <p>Pellentesque etiam blandit in tincidunt at donec.
+                    Eget ipsum dignissim placerat nisi
+                    , adipiscing mauris non purus parturient.</p>
+            </div>
+             <!-- for slidder -->
+           <div class="product_slider">
+                <div class="card">
+                    <img src="./assets/image/bookself.jpg" alt="bookshlef">
+                    <h3 class="bookshlef_header">Wooden Bookshelf</h3>
+                    <p>Combination of wood and wool</p>
+                    <span>$63.47</span>
+
+                </div>
+                <div class="card">
+                    <img src="./assets/image/slick chair.jpg" alt="chair">
+                    <h3 class="chair_header">White Aesthetic Chair</h3>
+                    <p>Combination of wood and plastic</p>
+                    <span>$63.90</span>
+                </div>
+                <div class="card">
+                    <img src="./assets/image/slick lamp.jpg" alt="lamp_header">
+                    <h3 class="lamp_header">Wooden Bookshelf</h3>
+                    <p>Combination of wood and wool</p>
+                    <span>$63.47</span>
+                </div>
+                <div class="card">
+                    <img src="./assets/image/slick sofs.jpg" alt="sofa">
+                    <h3 class="sofa_header">Wooden Bookshelf</h3>
+                    <p>Combination of wood and wool</p>
+                    <span>$63.47</span> 
+                </div>
+                <div class="card">
+                    <img src="./assets/image/bookself.jpg" alt="bookshlef">
+                    <h3 class="chair_header">Wooden Bookshelf</h3>
+                    <p>Combination of wood and wool</p>
+                    <span>$63.47</span> 
+                </div>
+                <div class="card">
+                    <img src="./assets/image/slick chair.jpg" alt="bookshlef">
+                    <h3 class="chair_header">Wooden Bookshelf</h3>
+                    <p>Combination of wood and wool</p>
+                    <span>$63.47</span> 
+                </div>
+                <div class="card">
+                    <img src="./assets/image/slick lamp.jpg" alt="bookshlef">
+                    <h3 class="chair_header">Wooden Bookshelf</h3>
+                    <p>Combination of wood and wool</p>
+                    <span>$63.47</span> 
+                </div>
+                <div class="card">
+                    <img src="./assets/image/slick sofs.jpg" alt="bookshlef">
+                    <h3 class="chair_header">Wooden Bookshelf</h3>
+                    <p>Combination of wood and wool</p>
+                    <span>$63.47</span> 
+                </div>
+             </div>  
+             <!-- slider end -->
+             <div class="product_container">
+            <div class="products_ratings">
+                <div class="our_products">
+                    <h5>Crafted by talented and
+                        high quality material</h5>
+                    <p>Pellentesque etiam blandit in tincidunt at donec.
+                        Eget ipsum dignissim placerat nisi, adipiscing mauris non purus
+                        parturient. morbi fermentum,
+                        vivamus et accumsan dui tincidunt pulvinar</p>
+                    <button>Learn More</button>
+                    <img src="./assets/image/our products image.png" alt="our_products_image">
+                </div>
+                <div class="ratings">
+                    <div class="ratings_classifications">
+                        <div>
+                            <h5>20+</h5>
+                            <p>Years Experience</p>
+                        </div>
+                        <div>
+                            <h5>483</h5>
+                            <p>Happy Client</p>
+                        </div>
+                        <div>
+                            <h5>150+</h5>
+                            <p>Project Finished</p>
+                        </div>
+                    </div>
+                    <img src="./assets/image/rating image.png" alt="rating_image">
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- section 3 -->
+    <section>
+        <div class="testimonials">
+            <div class="testimonials_header">
+                <h5>What our customer say</h5>
+                <p>Pellentesque etiam blandit in tincidunt at donec.
+                    Eget ipsum dignissim placerat nisi,
+                    adipiscing mauris non purus parturient.</p>
+            </div>
+            <div class="articals">
+                <div class="articals_header">
+                    <h5>The best furniture comes from Furnicom</h5>
+                    <p>Pellentesque etiam blandit in tincidunt at donec.</p>
+                    <div class="artical_img_content">
+                        <!-- <img class="flower_img" src="./assets/image/artical image.jpg"> -->
+                        <!-- <p>Tips and Trick</p>
+                    <h5>Create Cozy Dinning Room Vibes</h5> -->
+                        <!-- <div class="read_more_container">
+                        <p>Decorating with neutrals brings balance to the dining room.
+                         With eclectic decoration on the sides, Caruso Dining Table and Cyrillo Dining Chairs elevate the tonal base of the room. The modern furniture set gives personality to any space in all types of architecture.‎ The wide volume enables everyone to sit back and relax, be it in the dining room, 
+                        conference, or office.</p>
+                        <span class="read_more_text">Decorating with neutrals brings balance to the dining room...</span>
+
+                        <span class="read_more">Read More...</span>
+                   </div> -->
+                    </div>
+                    <div class="article_button">
+                        <button class="left_bton"><img src="./assets/image/left arrow.png"></button>
+                        <button class="right_bton"><img src="./assets/image/arrow-right (1).png"></button>
+                    </div>
+
+                </div>
+                <div class="suggestions">
+                    <div class="tips_and_tricks">
+                        <img src="./assets/image/suggestion img 1.png">
+                        <div class="tips_and_tricks_content">
+                            <p>Tips and Trick</p>
+                            <h2>6 ways to give your home minimalistic vibes</h2>
+                            <p class="tips_and_tricks_def">Pellentesque etiam blandit in... </p>
+                            <div class="suggestor_details">
+                                <h1 class="suggestor_details_text">By Jerremy Jean</h1>
+                                <p class="suggestor_details_text">Friday, 1 April 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="design_inspiration">
+                        <img src="./assets/image/suggestion img 2.png">
+                        <div class="tips_and_tricks_content">
+                            <p>Tips and Trick</p>
+                            <h2>How to make your interiors cooler and more stylish</h2>
+                            <p class="tips_and_tricks_def">Pellentesque etiam blandit in... </p>
+                            <div class="suggestor_details">
+                                <h1 class="suggestor_details_text">By Michaela Aug</h1>
+                                <p class="suggestor_details_text">Friday, 1 April 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tips_and_tricks">
+                        <img src="./assets/image/suggestion img 3.png">
+                        <div class="tips_and_tricks_content">
+                            <p>Tips and Trick</p>
+                            <h2>Elements to add character to your space</h2>
+                            <p class="tips_and_tricks_def">Pellentesque etiam blandit in... </p>
+                            <div class="suggestor_details">
+                                <h1 class="suggestor_details_text">By Kim Guram</h1>
+                                <p class="suggestor_details_text">Friday, 1 April 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="footer_holder">
+            <div class="footer_header">
+                <h5>Join with me to get special discount</h5>
+                <button class="footer_button">Learn More</button>
+            </div>
+            <hr class="footer_line">
+
+            <div class="footer_contents">
+                <div class="footer_logo">
+                    <img src="d:\gokul\PLACEMENT\furniture.jpg">
+                    <p>Furnicom is digital agency that help you make better
+                        experience iaculis cras in.</p>
+                </div>
+                <div class="footer_items">
+                
+                    <!--  link items 1 -->
+                    <ul class="product">
+                      <li class="footer-links-head">Product</li>
+                      <li><a href="javascript:;">New Arrivals</a></li>
+                      <li><a href="javascript:;">Best Selling</a></li>
+                      <li><a href="javascript:;">Home Decor</a></li>
+                      <li><a href="javascript:;">Kitchen Set</a></li>
+                    </ul>
+                    <!--  link items 2 -->
+                    <ul class="service">
+                      <li class="footer-links-head">Services</li>
+                      <li><a href="javascript:;">Catalog</a></li>
+                      <li><a href="javascript:;">Blog</a></li>
+                      <li><a href="javascript:;">FaQ</a></li>
+                      <li><a href="javascript:;">Pricing</a></li>
+                    </ul>
+                    <!-- link items 3   -->
+                    <ul class="follow_us">
+                      <li class="footer-links-head">Follow Us</li>
+                      <li><a href="javascript:;">Facebook</a></li>
+                      <li><a href="javascript:;">Instagram</a></li>
+                      <li><a href="javascript:;">Twitter</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+        </div>
+
+    </footer>
+    
+<!-- slick -->
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script> -->
+                    
+</body>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script>
+    function openNav() {
+     document.getElementById("mySidenav").style.width = "250px";
+}
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+   $(document).ready(function() {
+            $('.testimonials_box_content').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+            $(document).ready(function(){
+                $('.product_slider').slick({
+                dots: false,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                    },
+                    {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                    },
+                    {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                    }
+                
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ],
+                prevArrow: '<button type="button" class="slick-prev">"<i class="fa-solid fa-chevron-left"></i></button>',
+                nextArrow: '<button type="button" class="slick-next"><i class="fa-solid fa-chevron-right"></i></button>'
+
+            });
+        });
+</script>
+</html>
